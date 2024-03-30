@@ -13,6 +13,7 @@ here: [Community Features](https://github.com/SynthstromAudible/DelugeFirmware/b
 - Updated audio clip's sample loading to load sample without time stretching. Added new shortcut to remove timestretching from an audio clip and shorten / extend an audio clip without timestretching. 
   - Press `▼︎▲︎` + `◀︎▶︎` to set the Audio Clip length equal to the length of the audio sample. This will effectively remove timestretching from the audio sample.
   - Press `SHIFT` + `◀︎▶︎` + `turn ◀︎▶︎` to shorten / lengthen the audio clip without timestretching.
+- Fixed developer SysEx feature advertised in the community menu when not enabled in the build.
 
 ## c1.1.0 Beethoven
 

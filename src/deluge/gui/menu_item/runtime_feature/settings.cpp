@@ -53,7 +53,9 @@ std::array<MenuItem*, RuntimeFeatureSettingType::MaxElement - kNonTopLevelSettin
     &menuDeleteUnusedKitRows,
     &menuAltGoldenKnobDelayParams,
     &menuQuantizedStutterRate,
+#ifdef ENABLE_SYSEX_LOAD
     &menuDevSysexAllowed,
+#endif
     &menuSyncScalingAction,
     &menuHighlightIncomingNotes,
     &menuDisplayNornsLayout,
